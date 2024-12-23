@@ -1,0 +1,16 @@
+[package]
+name = "client_server_massage"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+env_logger = "0.10"
+tonic = "0.6"
+prost = "0.10"
+log = "0.4"
+
+[build-dependencies]
+prost-build = "0.13.4"
+tonic-build = "0.6"
+[dev-dependencies]
+pretty_assertions = "1.4.1"
